@@ -1,0 +1,43 @@
+body
+{
+  background-color: #000000;
+  color: #ffffff;
+}
+/* Main content */
+.about-text {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+h2 {
+  text-align: center;
+}
+/* Change the background color of the accordion headers */
+.accordion-button:not(.collapsed) {
+  color: #fff;
+  background: #000;  /* Change to your desired text color */
+}
+
+/* Change the text color of the accordion headers */
+.accordion-button {
+  color: #fff;
+  background: #000;  /* Change to your desired text color */
+}
+
+/* Change the background color and text color of the accordion content */
+.accordion-body {
+  background-color: #121212; /* Change to your desired background color for content */
+  color: #fff; /* Change to your desired text color for content */
+}
+
+/* Center-align the images horizontally */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Change the color of the button */
+.msn-btn {
+  color: #fff;
+  background-color: #000;
+}
